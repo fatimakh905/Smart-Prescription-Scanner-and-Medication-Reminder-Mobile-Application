@@ -7,16 +7,6 @@ Smart Prescription Scanner and Medicine Reminder Application for Better Medicati
 
 MediRemind is an Android healthcare application designed to help users manage prescriptions, medicines, and medication reminders efficiently. The app allows users to scan medical prescriptions(English & Urdu), extract medicine information using OCR and AI processing, and automatically generate medicine alarms. Users can also manually add medicines and customize reminder schedules. The application is especially useful for patients who take multiple medicines and want a simple way to avoid missing doses.
 
-## App Screenshots
-
-| Splash Screen                            | Home Screen                          | Prescription Scan                    |
-| ---------------------------------------- | ------------------------------------ | ------------------------------------ |
-| ![Splash](screenshots/splash_screen.png) | ![Home](screenshots/home_screen.png) | ![Scan](screenshots/scan_screen.png) |
-
-| Medicine Management                            | Alarm Screen                            | Dashboard                                      |
-| ---------------------------------------------- | --------------------------------------- | ---------------------------------------------- |
-| ![Medicines](screenshots/medicines_screen.png) | ![Alarms](screenshots/alarm_screen.png) | ![Dashboard](screenshots/dashboard_screen.png) |
-
 ## Features
 
 * Prescription scanning using camera or gallery
@@ -47,7 +37,7 @@ MediRemind is an Android healthcare application designed to help users manage pr
 ## APK Download
 
 Add APK link here.
-[Download APK](apk/MediRemind.apk)
+[Download APK](apk/app-debug.apk)
 
 ## How to Install the APK
 
@@ -71,7 +61,7 @@ Add privacy policy file or link here.
 
 Example:
 
-[View Privacy Policy](docs/privacy_policy.pdf)
+[View Privacy Policy](docs/Privacy Policy.md)
 
 ## Future Enhancements
 
@@ -87,4 +77,4 @@ Example:
 
 Kaneez Fatima
 
-BS Computer Science Student 6th Semester
+BS Computer Science Student
