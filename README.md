@@ -7,17 +7,6 @@ Smart Prescription Scanner and Medicine Reminder Application for Better Medicati
 
 MediRemind is an Android healthcare application designed to help users manage prescriptions, medicines, and medication reminders efficiently. The app allows users to scan medical prescriptions(English & Urdu), extract medicine information using OCR and AI processing, and automatically generate medicine alarms. Users can also manually add medicines and customize reminder schedules. The application is especially useful for patients who take multiple medicines and want a simple way to avoid missing doses.
 
-## App Screenshots
-
-| Splash Screen                            | Onboarding Screens                        | Home                   |
-| ---------------------------------------- | ------------------------------------ | ------------------------------------ |
-| ![Splash](screenshots/SplashScreen.jpeg) | ![Onboarding](screenshots/OnboardingScreen1.jpeg))<br><br>![Onboarding 2](screenshots/OnboardingScreen2.jpeg) | ![Home](screenshots/HomeSreen.jpeg) |
-
-| Prescription Scan                          | Medicines                          | Alarms                                    |
-| ---------------------------------------------- | --------------------------------------- | ---------------------------------------------- |
-| ![Prescription Scan](screenshots/PrescriptionScanning.jpeg) | ![Medicines Verifiation](screenshots/MedicineVerification.jpeg) | ![Alarms](AlaramTimeCustomization.jpeg) |
-
-
 ## Features
 
 * Prescription scanning using camera or gallery
