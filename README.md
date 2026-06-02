@@ -9,13 +9,14 @@ MediRemind is an Android healthcare application designed to help users manage pr
 
 ## App Screenshots
 
-| Splash Screen                            | Home Screen                          | Prescription Scan                    |
+| Splash Screen                            | Onboarding Screens                        | Home                   |
 | ---------------------------------------- | ------------------------------------ | ------------------------------------ |
-| ![Splash](screenshots/splash_screen.png) | ![Home](screenshots/home_screen.png) | ![Scan](screenshots/scan_screen.png) |
+| ![Splash](screenshots/SplashScreen.jpeg) | ![Onboarding](screenshots/OnboardingScreen1.jpeg))<br><br>![Onboarding 2](screenshots/OnboardingScreen2.jpeg) | ![Home](screenshots/HomeSreen.jpeg) |
 
-| Medicine Management                            | Alarm Screen                            | Dashboard                                      |
+| Prescription Scan                          | Medicines                          | Alarms                                    |
 | ---------------------------------------------- | --------------------------------------- | ---------------------------------------------- |
-| ![Medicines](screenshots/medicines_screen.png) | ![Alarms](screenshots/alarm_screen.png) | ![Dashboard](screenshots/dashboard_screen.png) |
+| ![Prescription Scan](screenshots/PrescriptionScanning.jpeg) | ![Medicines Verifiation](screenshots/MedicineVerification.jpeg) | ![Alarms](AlaramTimeCustomization.jpeg) |
+
 
 ## Features
 
@@ -47,7 +48,7 @@ MediRemind is an Android healthcare application designed to help users manage pr
 ## APK Download
 
 Add APK link here.
-[Download APK](apk/MediRemind.apk)
+[Download APK](apk/app-debug.apk)
 
 ## How to Install the APK
 
