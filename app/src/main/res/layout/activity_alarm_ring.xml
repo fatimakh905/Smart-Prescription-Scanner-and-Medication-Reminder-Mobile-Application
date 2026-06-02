@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- Pill icon -->
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_pill"
+        android:tint="@color/white"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medicine Reminder"
+        android:textColor="#AAFFFFFF"
+        android:textSize="14sp"
+        android:letterSpacing="0.1"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Medicine card -->
+    <androidx.cardview.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="28dp"
+        android:layout_marginBottom="32dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvMedicineName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loading…"
+                android:textColor="@color/foreground"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tvStrength"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/muted_foreground"
+                android:textSize="15sp"
+                android:layout_marginTop="4dp"
+                android:gravity="center" />
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="1dp"
+                android:background="@color/border"
+                android:layout_marginVertical="14dp" />
+
+            <TextView
+                android:id="@+id/tvMealRelation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary"
+                android:textSize="14sp"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tvInstruction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/foreground"
+                android:textSize="13sp"
+                android:gravity="center"
+                android:layout_marginTop="6dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Action buttons -->
+    <Button
+        android:id="@+id/btnTaken"
+        android:layout_width="240dp"
+        android:layout_height="52dp"
+        android:text="✓  Mark as Taken"
+        android:backgroundTint="@color/success"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSnooze"
+            android:layout_width="110dp"
+            android:layout_height="44dp"
+            android:text="Snooze 10m"
+            android:backgroundTint="#55FFFFFF"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/btnSkip"
+            android:layout_width="110dp"
+            android:layout_height="44dp"
+            android:text="Skip"
+            android:backgroundTint="#33FFFFFF"
+            android:textColor="#CCFFFFFF"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

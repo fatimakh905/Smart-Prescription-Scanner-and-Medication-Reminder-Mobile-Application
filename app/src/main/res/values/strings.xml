@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MediRemind</string>
+    <string name="channel_alarm_name">Medicine Alarms</string>
+    <string name="channel_alarm_description">Critical medicine alarm notifications</string>
+    <string name="notification_title">Medicine Reminder</string>
+    <string name="action_taken">Mark Taken</string>
+    <string name="action_snooze">Snooze 10 min</string>
+    <string name="action_skip">Skip</string>
+</resources>

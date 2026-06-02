@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+        <!-- Row 1: index + emoji + confidence -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/tvIndex"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/bg_circle_primary"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTypeEmoji"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:textSize="22sp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end|center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivConfidence"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/ic_confidence_high" />
+
+                <TextView
+                    android:id="@+id/tvConfidence"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:textSize="11sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Medicine Name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medicine Name"
+            android:textColor="@color/muted_foreground"
+            android:textSize="11sp"
+            android:layout_marginBottom="2dp" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_input"
+            android:padding="10dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Strength + Dose side by side -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginEnd="6dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Strength"
+                    android:textColor="@color/muted_foreground"
+                    android:textSize="11sp"
+                    android:layout_marginBottom="2dp" />
+
+                <EditText
+                    android:id="@+id/etStrength"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_input"
+                    android:padding="10dp"
+                    android:hint="e.g. 500mg"
+                    android:textSize="13sp"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="6dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dose Qty"
+                    android:textColor="@color/muted_foreground"
+                    android:textSize="11sp"
+                    android:layout_marginBottom="2dp" />
+
+                <EditText
+                    android:id="@+id/etDose"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_input"
+                    android:padding="10dp"
+                    android:hint="1"
+                    android:textSize="13sp"
+                    android:inputType="number" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Frequency Spinner -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Frequency *"
+            android:textColor="@color/muted_foreground"
+            android:textSize="11sp"
+            android:layout_marginBottom="2dp" />
+
+        <Spinner
+            android:id="@+id/spinnerFrequency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_input"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Timing Spinner -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Timing"
+            android:textColor="@color/muted_foreground"
+            android:textSize="11sp"
+            android:layout_marginBottom="2dp" />
+
+        <Spinner
+            android:id="@+id/spinnerTiming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_input"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Meal Relation Spinner -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meal Relation"
+            android:textColor="@color/muted_foreground"
+            android:textSize="11sp"
+            android:layout_marginBottom="2dp" />
+
+        <Spinner
+            android:id="@+id/spinnerMeal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_input"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Duration -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duration (days)"
+            android:textColor="@color/muted_foreground"
+            android:textSize="11sp"
+            android:layout_marginBottom="2dp" />
+
+        <EditText
+            android:id="@+id/etDuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_input"
+            android:padding="10dp"
+            android:hint="e.g. 7"
+            android:textSize="13sp"
+            android:inputType="number"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Special Instruction -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Special Instruction"
+            android:textColor="@color/muted_foreground"
+            android:textSize="11sp"
+            android:layout_marginBottom="2dp" />
+
+        <EditText
+            android:id="@+id/etSpecialInstruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_input"
+            android:padding="10dp"
+            android:hint="e.g. dissolve in water"
+            android:textSize="13sp"
+            android:inputType="textMultiLine"
+            android:minLines="2" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Dark-mode overlay. MediRemind currently uses a light-only palette,
+        so dark mode inherits the default theme. Add dark-specific color
+        overrides here when a dark theme is implemented.
+    -->
+    <style name="Theme.MediRemind.Dark" parent="Theme.MediRemind">
+        <!-- Dark overrides go here -->
+    </style>
+</resources>
