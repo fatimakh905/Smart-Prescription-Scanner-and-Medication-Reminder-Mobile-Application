@@ -61,7 +61,7 @@ Add privacy policy file or link here.
 
 Example:
 
-[View Privacy Policy](docs/privacy_policy.pdf)
+[View Privacy Policy](docs/Privacy Policy.md)
 
 ## Future Enhancements
 
