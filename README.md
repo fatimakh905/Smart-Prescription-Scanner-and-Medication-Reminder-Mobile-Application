@@ -77,4 +77,4 @@ Example:
 
 Kaneez Fatima
 
-BS Computer Science Student 6th Semester
+BS Computer Science Student
