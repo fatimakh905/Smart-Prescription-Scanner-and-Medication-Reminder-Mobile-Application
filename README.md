@@ -36,7 +36,6 @@ MediRemind is an Android healthcare application designed to help users manage pr
 
 ## APK Download
 
-Add APK link here.
 [Download APK](apk/app-debug.apk)
 
 ## How to Install the APK
@@ -47,6 +46,10 @@ Add APK link here.
 4. Install the application.
 5. Launch MediRemind and start managing your medicines.
 
+## User Guide
+
+[View User Guide](docs/user_manual.md)
+
 ## How to Run the Project
 
 1. Clone or download this repository.
@@ -56,10 +59,6 @@ Add APK link here.
 5. Build and run the application.
 
 ## Privacy Policy
-
-Add privacy policy file or link here.
-
-Example:
 
 [View Privacy Policy](docs/Privacy Policy.md)
 
