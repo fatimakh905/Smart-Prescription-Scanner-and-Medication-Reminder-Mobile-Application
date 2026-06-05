@@ -60,7 +60,7 @@ MediRemind is an Android healthcare application designed to help users manage pr
 
 ## Privacy Policy
 
-[View Privacy Policy](docs/Privacy Policy.md)
+[View Privacy Policy](docs/PrivacyPolicy.md)
 
 ## Future Enhancements
 
