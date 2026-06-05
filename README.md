@@ -1,7 +1,7 @@
 # Smart-Prescription-Scanner-and-Medication-Reminder-Mobile-Application
 # MediRemind
 
-Smart Prescription Scanner and Medicine Reminder Application for Better Medication Management.
+Smart Prescription Scanner and Medicine Reminder Application for Better Medication Management and Reminders.
 
 ## About the App
 
