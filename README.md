@@ -34,9 +34,9 @@ MediRemind is an Android healthcare application designed to help users manage pr
 * Material Design Components
 * Gradle
 
-## APK Download
+## Application Demo Video
 
-[Download APK](apk/app-debug.apk)
+[See the Demo](https://drive.google.com/file/d/1dpfBMHeUTqzBna7IuvPqJcfeHDvDQc9S/view?usp=drivesdk)
 
 ## How to Install the APK
 
