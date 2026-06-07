@@ -19,7 +19,6 @@ MediRemind is an Android healthcare application designed to help users manage pr
 * Upcoming alarm tracking
 * Medicine repository management
 * SQLite local database storage
-* User-friendly Android interface
 
 ## Technologies Used
 
@@ -33,6 +32,10 @@ MediRemind is an Android healthcare application designed to help users manage pr
 * Broadcast Receivers
 * Material Design Components
 * Gradle
+
+## Complete Project Report
+
+[View Project Report](docs/report.pdf)
 
 ## Application Demo Video
 
