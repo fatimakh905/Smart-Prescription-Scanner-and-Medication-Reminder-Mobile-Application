@@ -1,7 +1,7 @@
 # Smart-Prescription-Scanner-and-Medication-Reminder-Mobile-Application
 # MediRemind
 
-Smart Prescription Scanner and Medicine Reminder Application for Better Medication Management.
+Smart Prescription Scanner and Medicine Reminder Application for Better Medication Management and Reminders.
 
 ## About the App
 
@@ -34,9 +34,9 @@ MediRemind is an Android healthcare application designed to help users manage pr
 * Material Design Components
 * Gradle
 
-## APK Download
+## Application Demo Video
 
-[Download APK](apk/app-debug.apk)
+[See the Demo](https://drive.google.com/file/d/1dpfBMHeUTqzBna7IuvPqJcfeHDvDQc9S/view?usp=drivesdk)
 
 ## How to Install the APK
 
@@ -60,7 +60,7 @@ MediRemind is an Android healthcare application designed to help users manage pr
 
 ## Privacy Policy
 
-[View Privacy Policy](docs/Privacy Policy.md)
+[View Privacy Policy](docs/PrivacyPolicy.md)
 
 ## Future Enhancements
 
