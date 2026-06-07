@@ -37,6 +37,11 @@ MediRemind is an Android healthcare application designed to help users manage pr
 
 [View Project Report](docs/report.pdf)
 
+## Presentation Slides 
+
+[View Slides](https://docs.google.com/presentation/d/1j6DAF6TWB1LUxXCdUp3yoer_KIyLLdxT/edit?usp=drive_link&ouid=102539646235192103210&rtpof=true&sd=true)
+
+
 ## Application Demo Video
 
 [See the Demo](https://drive.google.com/file/d/1CfSLshjObo94jlwXXmH5KIrPe7GjZmWv/view?usp=drive_link)
