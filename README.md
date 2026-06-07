@@ -74,4 +74,4 @@ Kaneez Fatima
 
 Kaneez Fatima\\
 BS Computer Science Student\\
-\href{https://www.linkedin.com/in/kaneez-fatima-8a1516335}{LinkedIn}
+[Linkedin](https://www.linkedin.com/in/kaneez-fatima-8a1516335)
