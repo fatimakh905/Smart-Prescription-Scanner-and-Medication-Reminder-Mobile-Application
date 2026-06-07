@@ -72,6 +72,8 @@ MediRemind is an Android healthcare application designed to help users manage pr
 Kaneez Fatima
 ## Developed By
 
-Kaneez Fatima\\
-BS Computer Science Student\\
+Kaneez Fatima
+
+BS Computer Science Student
+
 [Linkedin](https://www.linkedin.com/in/kaneez-fatima-8a1516335)
